@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas' Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <script src="jquery-3.7.1.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <a href="#home" class="logo">Thomas <span>Pozzi</span></a>
+
+            <a href=#navbar><i class='bx bx-menu' id="menu-icon"></i></a>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact" class="home_contact">Contact</a>
+            </nav>
+
+            <button class="contact"><a href="#contact">Contact me</a></button>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="description">
+                <h1>Hi, Welcome to <span>my resume</span></h1>
+                <h3>I'm Thomas, a first year <span>CS Student</span></h3>
+                <button class="resume"><a href="Documents/CV.pdf" download="CV.pdf"> Download my resume</a></button>   
+            </div>
+
+            <img class="profile_pic" src="Images/pp.jpg">
+
+            <div class="socials">
+                <a href="https://github.com/TosuiEpitech" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/thomas-pozzi-1070b7137/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://wa.link/wtigjm" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+            </div>
+
+        </section>
+
+        <section class="about" id="about">
+            <h1>About <span>me</span></h1>
+            <div class="section_body">
+                <div class="profile picture">
+                    <img class="pp2" src="Images/pp2.jpg">
+                </div>
+                <div class="profile text">
+                    <h3>Who am I ?</h3>
+                    <p>Hello and welcome, I am Thomas a former hospitality employee that wanted to see new horizons. After working in various restaurants in different countries, I felt the need to be challenged again.<br>What's best for that than learn a whole new field ? That's why I decided to join the renowned Epitech school !<br>Here you will be able to see my school projects, past and upcoming. Enjoy !</p>
+                    <h3>Education</h3>
+                        <ul>
+                            <li class="education">Jean-Mermoz Highschool - 68300 Saint-Louis<br>Baccalauréat - 2011</li>
+                            <li class="education">Department of Human and Social Sciences - 67000 Strasbourg's University<br>Bachelor degree in Education Science - 2017</li>
+                            <li class="education">Epitech - 67000 Strasbourg<br>Master's degree in Computer Sciences - 2027</li>
+                        </ul>
+                    <div class="skill">
+                        <h3 class="skill">Skills</h3>
+                        <ul>
+                            <li class="skill"><h5>html</h5>
+                                <span class="bar"><span class="html"></span></span>
+                            </li>
+                            <li class="skill"><h5>css</h5>
+                                <span class="bar"><span class="css"></span></span>
+                            </li>
+                            <li class="skill"><h5>javascript</h5>
+                                <span class="bar"><span class="javascript"></span></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <h1>My <span>Projects</spasn></h1>
+            <div class="card-container">
+                <div class="cards">
+                    <img class="card-img" src="Images/project1.jpg">
+                    <h3 class="card-project">Work in Progress</h3>
+                    <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut quo voluptatibus, quasi perspiciatis ipsa, reiciendis aperiam distinctio expedita adipisci, excepturi rerum ratione earum? Reprehenderit.
+                    </p>
+                    <button class="review"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">review project</a></button>
+                </div>
+
+                <div class="cards">
+                    <img class="card-img" src="Images/project2.jpg">
+                    <h3 class="card-project">Work in Progress</h3>
+                    <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut quo voluptatibus, quasi perspiciatis ipsa, reiciendis aperiam distinctio expedita adipisci, excepturi rerum ratione earum? Reprehenderit.</p>
+                    <button class="review"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">review project</a></button>
+                </div>
+
+                <div class="cards">
+                    <img class="card-img" src="Images/project3.jpg">
+                    <h3 class="card-project">Work in Progress</h3>
+                    <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut quo voluptatibus, quasi perspiciatis ipsa, reiciendis aperiam distinctio expedita adipisci, excepturi rerum ratione earum? Reprehenderit.</p>
+                    <button class="review"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">review project</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contactme" id="contact">
+            <h1>Contact <span>me    </span></h1>
+            <div class="form-container">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="644b76a5-0dfe-426c-817f-17a9634c8caa">
+                    <div class="form-section1">
+                        <input type="text" name="first_name" id="first_name" placeholder="First Name" required>
+                        
+                        <input type="text" name="last_name" id="last_name" placeholder="Last Name" required>
+                        
+                        <input type="email" name="email" id="email" placeholder="Email address" required>
+        
+                        <input type="text" name="phone" id="phone" placeholder="Phone number (optional)">
+
+                        
+                    </div>
+
+                    <div class="form-section2">
+                        <textarea name="message" id="" placeholder="Your Message" cols="15" row="10" required></textarea>
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                        <input type="submit" value="Send Message" class="btn">
+                    </div>
+                </form>
+
+                
+
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="socials footer">
+            <a href="https://github.com/TosuiEpitech" target="_blank"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.linkedin.com/in/thomas-pozzi-1070b7137/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://wa.link/wtigjm" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+        </div>
+        <div class="links-container">
+            <ul>
+                <a href="#FAQ" class="links">FAQ</a>
+                <a href="#home" class="links">Home</a>
+                <a href="#about" class="links">About</a>
+                <a href="#projects" class="links">Projects</a>
+                <a href="#contact" class="links">Contact</a>
+            </ul>
+            
+        </div>
+    </footer>
+
+    <script src="myscript.js"></script>
+</body>
+</html>
