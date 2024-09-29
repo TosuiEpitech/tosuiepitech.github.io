@@ -458,6 +458,12 @@ footer{
         h1{
             margin-left: 2rem;
         }
+        .projects h1{
+            margin-top: -20rem;
+        }
+        .contactme h1{
+            margin-top: -10rem;
+        }
 
         h3{
             margin-top: -2rem;
@@ -558,11 +564,12 @@ footer{
             padding-left: 2rem;
             margin-right: 10rem;
             padding-bottom: 3rem;
+            max-width: 70%;
         }
 
         li.education{
             font-size: 1.5rem;
-
+            max-width: 80%;
         }
 
         h3.skill{
@@ -583,6 +590,10 @@ footer{
 
        .navbar{
         width: 40%;
+       }
+
+       footer{
+        margin-top: 5rem;
        }
 }
 
